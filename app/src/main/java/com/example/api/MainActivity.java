@@ -48,8 +48,10 @@ public class MainActivity extends AppCompatActivity {
         //adapter.add(new Name("Ms","Aliya", "Najihati"));
         initList();
 
+        /*nampilin list user dari web*/
+        //loadUserAsync(20);
+
         /*buat manggil Toast 200 (consume API) itu*/
-        loadUserAsync(20);
         createUserku();
     }
 

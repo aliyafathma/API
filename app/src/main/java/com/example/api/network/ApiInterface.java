@@ -17,7 +17,7 @@ public interface ApiInterface {
     /*Line 18 buat nampilin yang kita bind (title, first name, last name)*/
     //Call<UserResponse> getTopRatedMovies(@Query("results") int result);
 
-    /*Line 21-28 untuk yang Consume API*/
+    /*Line 21-28 untuk yang Consume API yang Toast 200*/
     Call<UserResponse>getUser(@Query("results") int result);
 
     @Headers("Authorization: Bearer afPOPQbZk2HaEK7RBxLEDXgISOaAPmyPJUvG")
